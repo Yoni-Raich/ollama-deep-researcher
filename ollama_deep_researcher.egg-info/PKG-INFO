@@ -1,3 +1,21 @@
+Metadata-Version: 2.2
+Name: ollama-deep-researcher
+Version: 0.0.1
+Summary: Lightweight web research and summarization assistant.
+Author: Lance Martin
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: langgraph>=0.2.55
+Requires-Dist: langchain-community>=0.3.9
+Requires-Dist: tavily-python>=0.5.0
+Requires-Dist: langchain-ollama>=0.2.1
+Requires-Dist: duckduckgo-search>=7.3.0
+Requires-Dist: beautifulsoup4>=4.13.3
+Provides-Extra: dev
+Requires-Dist: mypy>=1.11.1; extra == "dev"
+Requires-Dist: ruff>=0.6.1; extra == "dev"
+
 # Ollama Deep Researcher
 
 Ollama Deep Researcher is a powerful AI assistant with two main capabilities:
